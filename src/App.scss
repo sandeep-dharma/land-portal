@@ -1,0 +1,43 @@
+
+.body-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 8px 12px;
+
+    .header-content {
+      font-size: 12px;
+    }
+
+    .dropdown {
+      color: #64748b;
+      cursor: pointer;
+    }
+  }
+
+  .col {
+    margin: 0 !important;
+    padding: 0 8px;
+  }
+
+  .spinner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .body-container {
+    padding: 1rem 3rem;
+  }
+}
